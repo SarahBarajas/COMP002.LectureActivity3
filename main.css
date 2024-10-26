@@ -1,0 +1,33 @@
+/* Font family for the webpage */
+body, h1, h2 {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif, "Ubuntu", Arial, Helvetica 
+}
+/* dark background */
+body {
+    background: radial-gradient(circle, rgb(162, 127, 127), rgb(0,40,0)); 
+}
+
+    
+
+/* yellow color and font size and spacing adjustments */
+h1 {
+    color: rgb(248, 248, 246);
+    font-size: 2em;
+    margin-bottom: 0.5em;
+} 
+/* blue color and font size and spacing adjustments */
+h2 {
+    color: rgb(35, 35, 104);
+    font-size: 1.5em;
+    margin-bottom: 1em;
+} 
+
+ /* Makes scroll bars  */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: auto;
+}
