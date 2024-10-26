@@ -24,4 +24,46 @@ if (myGrade >= 90) {
     console.log("F");
     appendResult("results1", "F");
 }
+// switch statements
+let myGrade2 = 85;
+switch (true) {
+    case (myGrade2 >= 90):
+        console.log("A");
+        appendResult("results2", "A");
+        break;
+    case (myGrade2 >= 80):
+        console.log("B");
+        appendResult("results2", "B");
+        break;
+    case (myGrade2 >= 70):
+        console.log("C");
+        appendResult("results2", "C");
+        break;
+    case (myGrade2 >= 60):
+        console.log("D");
+        appendResult("results2", "D");
+        break;
+    default:
+        console.log("F");
+        appendResult("results2", "F");
+}
+// for loop
+let result3 = "";
+for (let i = 1; i <= 100; i++) {
+    console.log(i);
+    result3 += i + " ";
+}
+appendResult("results3", result3);
 
+// for loop with conditional
+let result4 = "";
+for (let i = 1; i <= 100; i++) {
+    if (i % 2 !== 0) {
+        console.log("!");
+        result4 += "! ";
+    } else {
+        console.log(i);
+        result4 += i + " ";
+    }
+}
+appendResult("results4", result4)
